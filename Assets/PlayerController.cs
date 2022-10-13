@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public GameObject groundChecker;
     public LayerMask whatIsGround;
 
-    float maxSpeed = 15.0f;
+    float maxSpeed = 30.0f;
     bool isOnGround = false;
 
     Rigidbody2D playerObject;
